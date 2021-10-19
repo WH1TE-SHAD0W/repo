@@ -17,4 +17,7 @@ def Digits(n):
     print(minimum)
 
 for i in range(t):
-    Digits(a[i])
+    if a[i] != 0:
+        Digits(a[i])
+    else:
+        print(0)
