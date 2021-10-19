@@ -3,3 +3,4 @@ a =[]
 for i in range(t):
     a.append(input())
 print(a)
+
